@@ -276,37 +276,21 @@ function loadNavbar() {
             <!-- /.header-top-right -->
             <div class="collapse navbar-collapse" id="mainNavigation">
               <ul class="navbar-nav ml-auto">
-                <li class="nav__item with-dropdown">
+                <li class="nav__item ">
                   <a
                     href="/"
-                    class="dropdown-toggle nav__item-link active"
+                    class=" nav__item-link "
                     >Home</a
                   >
-                  <!-- <ul class="dropdown-menu">
-                    <li class="nav__item">
-                      <a href="index.html" class="nav__item-link">Home Main</a>
-                    </li>
-                    <li class="nav__item">
-                      <a href="./home-modern.html" class="nav__item-link"
-                        >Home Moderm</a
-                      >
-                    </li>
-                    <li class="nav__item">
-                      <a href="home-classic.html" class="nav__item-link"
-                        >Home classic</a
-                      >
-                    </li>
-                  </ul> -->
-                  <!-- /.dropdown-menu -->
                 </li>
                 <!-- /.nav-item -->
-                <li class="nav__item with-dropdown">
+                <li class="nav__item ">
                   <a href="/know-us-better.html" class="nav__item-link"
                     >Know us better</a
                   >
                 </li>
                 <!-- /.nav-item -->
-                <li class="nav__item with-dropdown">
+                <li class="nav__item ">
                   <a href="/why-choose-us.html" class="nav__item-link"
                     >Why choose us</a
                   >
@@ -316,7 +300,7 @@ function loadNavbar() {
                   <a href="/work-with-us.html" class="nav__item-link">Work with us</a>
                 </li>
                 <!-- /.nav-item -->
-                <li class="nav__item with-dropdown">
+                <li class="nav__item ">
                   <a href="/contact-us.html" class="nav__item-link"
                     >Contact us</a
                   >
@@ -389,5 +373,4 @@ function loadFooter() {
 </div>`;
 }
 
-loadNavbar();
 loadFooter();
