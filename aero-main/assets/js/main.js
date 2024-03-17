@@ -33,10 +33,6 @@ $(function () {
   var $win = $(window);
 
   /*==========  Pre Loading   ==========*/
-  $win.on("load", function () {
-    $(".preloader").fadeOut(4000);
-    $(".preloader").remove();
-  });
 
   /*==========   Mobile Menu   ==========*/
   var $navToggler = $(".navbar-toggler");
